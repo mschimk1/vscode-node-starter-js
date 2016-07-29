@@ -1,0 +1,22 @@
+{
+  "name": "vscode-node-starter-js",
+  "version": "0.1.0",
+  "description": "An ES6 node.js starter app with vscode typings",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mschimk1/vscode-node-starter-js.git"
+  },
+  "keywords": [],
+  "author": "Michael Schimko",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
