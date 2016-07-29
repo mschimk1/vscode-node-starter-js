@@ -17,12 +17,15 @@
   "author": "Michael Schimko",
   "license": "Apache-2.0",
   "devDependencies": {
+    "chai": "^3.5.0",
     "codecov": "^1.0.1",
     "dotenv": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-mocha": "^2.2.0",
     "istanbul": "^0.4.4",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
     "cf-deployment-tracker-client": "^0.1.1",

@@ -3,6 +3,6 @@
 const express = require('express'),
       app     = express();
 
-// module config
+// module and framework config
 
 module.exports = app;
