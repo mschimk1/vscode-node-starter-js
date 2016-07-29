@@ -3,4 +3,5 @@
 **/public/logs/**
 **/temp
 **/node_modules
+**/coverage
 .project

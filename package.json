@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha -u bdd -R spec -t 500 --recursive",
-    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch",
+    "codecov": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,18 @@
   "author": "Michael Schimko",
   "license": "Apache-2.0",
   "devDependencies": {
+    "codecov": "^1.0.1",
+    "dotenv": "^2.0.0",
     "gulp": "^3.9.1",
-    "gulp-mocha": "^2.2.0"
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "cf-deployment-tracker-client": "^0.1.1",
+    "cfenv": "^1.0.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "winston": "^2.2.0"
   }
 }
